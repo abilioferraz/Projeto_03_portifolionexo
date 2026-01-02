@@ -77,13 +77,18 @@ header {
 
 .servicos-bg {
   background-image: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)),
-  url("https://images.unsplash.com/photo-1518972559570-7cc1309f3229");
+  url("https://images.unsplash.com/photo-1518972559570-7cc1309f3229");  
 }
 
 .contato-bg {
   background-image: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)),
   url("https://images.unsplash.com/photo-1515169067865-5387ec356754");
 }
+
+.texto-sobre {
+  text-align: justify;
+}
+
 
 /* BOXES */
 .content-box {
@@ -95,7 +100,11 @@ header {
 }
 
 .large-box { max-width: 900px; }
-.extra-large-box { max-width: 1300px; }
+.extra-large-box { 
+  max-width: 1300px;
+  text-align: center; 
+
+}
 
 .content-box h1,
 .content-box h2 {
