@@ -1,91 +1,143 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NEXO Stage | Produção Técnica de Eventos</title>
-  <link rel="stylesheet" href="/styles/styles.css">
+
+  <link rel="stylesheet" href="/styles/styles.css" />
 </head>
 <body>
 
-<header class="header">
-  <div class="logo">NEXO<span>Stage</span></div>
-  <nav>
-    <ul class="menu">
-      <li><a href="#sobre">Sobre</a></li>
-      <li><a href="#servicos">Serviços</a></li>
-      <li><a href="#portfolio">Portfólio</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>
-  </nav>
-</header>
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="nav container">
+      <div class="logo">
+        <img src="assets/images/logo s.f.png" alt="NEXO Stage" />
+      </div>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-overlay">
-    <h1>Experiências que ganham palco</h1>
-    <p>Tecnologia, estrutura e operação técnica para eventos de alto impacto</p>
-  </div>
-</section>
+      <ul class="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<!-- SOBRE -->
-<section id="sobre" class="section dark">
-  <div class="content-box">
-    <h2>Sobre a NEXO Stage</h2>
-    <p class="texto-sobre">
-      Somos uma produtora técnica especializada em áudio, iluminação, vídeo e estruturas
-      para eventos corporativos, shows e ações institucionais. Atuamos com planejamento,
-      execução e operação completa, entregando soluções confiáveis, seguras e de alto nível
-      técnico em São Paulo e Grande São Paulo.
-    </p>
-  </div>
-</section>
+  <main>
 
-<!-- SERVIÇOS -->
-<section id="servicos" class="section dark">
-  <h2>Serviços</h2>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero-overlay">
+        <div class="hero-content">
+          <h1>PRODUÇÃO TÉCNICA QUE ELEVA EXPERIÊNCIAS !!!</h1>
+          <p>Áudio, vídeo e tecnologia aplicados com precisão em eventos profissionais</p>
+        </div>
+      </div>
+    </section>
 
-  <div class="services">
-    <div class="service-card">
-      <h3>Sonorização Profissional</h3>
+    <!-- SOBRE -->
+    <section id="sobre" class="sobre container">
+      <div class="sobre-image">
+        <img src="assets/images/logo s.f.png" alt="NEXO Stage" />
+      </div>
+
+      <div class="sobre-text">
+        <h2>Sobre Nós</h2>
+        <p>
+          A NEXO Stage atua na produção técnica de eventos, unindo tecnologia,
+          planejamento e execução precisa para transformar projetos em experiências memoráveis...
+        </p>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="servicos">
+      <div class="container">
+        <h2>Serviços</h2>
+
+        <div class="servicos-grid">
+
+          <div class="servico-card" data-modal="servico1">
+            <h3>Áudio Profissional</h3>
+          </div>
+
+          <div class="servico-card" data-modal="servico2">
+            <h3>Iluminação Cênica</h3>
+          </div>
+
+          <div class="servico-card" data-modal="servico3">
+            <h3>Vídeo e Painéis LED</h3>
+          </div>
+
+          <!-- outros serviços -->
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFÓLIO -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <h2>Portfólio</h2>
+        <p>Estruturas, áudio, luz e vídeo aplicados com excelência em eventos de todos os portes.</p>
+
+        <div class="portfolio-carousel">
+          <button class="carousel-btn prev">‹</button>
+
+          <div class="carousel-track">
+            <a href="portfolio/evento-1.html" class="portfolio-item"></a>
+            <a href="portfolio/evento-2.html" class="portfolio-item"></a>
+            <a href="portfolio/evento-3.html" class="portfolio-item"></a>
+          </div>
+
+          <button class="carousel-btn next">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contato">
+      <div class="contato-overlay">
+        <div class="container contato-content">
+          <div class="contato-info">
+            <img src="assets/images/logo.png" alt="NEXO Stage" />
+            <h3>NEXO Stage</h3>
+          </div>
+
+          <div class="contato-card">
+            <h2>Entre em Contato</h2>
+            <p>
+              <a href="https://wa.me/5511966143537" target="_blank">
+                (11) 96614-3537
+              </a>
+            </p>
+            <p>
+              <a href="https://instagram.com/nexo_stage" target="_blank">
+                @nexo_stage
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 NEXO Stage — Produção Técnica de Eventos. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- MODAIS SERVIÇOS -->
+  <div class="modal" id="servico1">
+    <div class="modal-content">
+      <button class="modal-close">×</button>
+      <img src="assets/images/servico-audio.png" alt="">
+      <h3>Áudio Profissional</h3>
+      <p>Descrição completa do serviço...</p>
     </div>
-    <div class="service-card">
-      <h3>Iluminação Cênica</h3>
-    </div>
-    <div class="service-card">
-      <h3>Painéis de LED</h3>
-    </div>
-    <div class="service-card">
-      <h3>Palcos & Estruturas</h3>
-    </div>
   </div>
-</section>
 
-<!-- PORTFÓLIO -->
-<section id="portfolio" class="section">
-  <h2>Portfólio</h2>
-  <p class="section-desc">Projetos executados em eventos, shows e produções técnicas.</p>
-
-  <div class="portfolio-grid">
-    <div class="portfolio-item"></div>
-    <div class="portfolio-item"></div>
-    <div class="portfolio-item"></div>
-  </div>
-</section>
-
-<!-- CONTATO -->
-<section id="contato" class="section dark">
-  <div class="content-box">
-    <h2>Contato</h2>
-    <p>São Paulo • Grande São Paulo</p>
-    <p><strong>Instagram:</strong> @nexo_stage</p>
-    <p><strong>Email:</strong> contato@nexostage.com.br</p>
-  </div>
-</section>
-
-<footer>
-  <p>© 2025 NEXO Stage</p>
-</footer>
-
+  <script src="js/main.js"></script>
 </body>
 </html>
