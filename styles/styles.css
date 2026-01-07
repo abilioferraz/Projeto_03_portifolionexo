@@ -38,7 +38,6 @@ body {
   z-index: 1000;
 }
 
-
 .nav {
   display: flex;
   align-items: center;
@@ -93,8 +92,6 @@ body {
   position: relative;
 }
 
-
-
 .hero-overlay {
   position: absolute;
   inset: 0;
@@ -102,17 +99,14 @@ body {
   z-index: 0;
 }
 
-
 .hero-content {
   position: relative;
   z-index: 1;
 
   max-width: 800px;
-  padding: 80px 32px 32px; /* empurra o texto para baixo do header */
+  padding: 80px 32px 32px;
   text-align: center;
 }
-
-
 
 .hero-content h1 {
   font-size: 3.2rem;
@@ -124,8 +118,6 @@ body {
   font-size: 1.2rem;
   color: var(--secondary);
 }
-
-
 
 .sobre {
   display: grid;
